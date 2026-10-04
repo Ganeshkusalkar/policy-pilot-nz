@@ -1,9 +1,9 @@
-from app.config import APP_NAME, ENVIRONMENT
+from app.config import settings
 
 
 def test_app_name():
-    assert APP_NAME == "PolicyPilot NZ"
+    assert settings.app_name == "PolicyPilot NZ"
 
 
 def test_environment():
-    assert ENVIRONMENT == "development"
+    assert settings.environment == "development"

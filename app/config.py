@@ -1,7 +1,14 @@
 import os
+
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
-APP_NAME = os.getenv("APP_NAME", "PolicyPilot NZ")
-ENVIRONMENT = os.getenv("ENVIRONMENT", "development") 
+
+class Settings:
+    app_name: str = os.getenv("APP_NAME", "PolicyPilot NZ")
+    environment: str = os.getenv("ENVIRONMENT", "development")
+
+
+settings = Settings()
