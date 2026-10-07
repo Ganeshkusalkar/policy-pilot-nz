@@ -1,0 +1,7 @@
+project-includes = [
+    "app",
+    "tests",
+]
+
+search-path = ["."]
+python-interpreter-path = ".P/Scripts/python.exe"
