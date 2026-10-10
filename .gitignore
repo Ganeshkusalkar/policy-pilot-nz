@@ -27,8 +27,9 @@ Thumbs.db
 # Logs
 *.log
 
-# Local data
-!data/raw/
+# Local legislation data
+data/raw/*
+!data/raw/README.md
 data/processed/
 
 # Secrets

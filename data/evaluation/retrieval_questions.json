@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Which rights and freedoms does the Act affirm?",
+        "expected_labels": [
+            "2"
+        ]
+    },
+    {
+        "question": "When does the Act apply to government actions?",
+        "expected_labels": [
+            "3"
+        ]
+    },
+    {
+        "question": "Can a court invalidate an enactment because it conflicts with this Act?",
+        "expected_labels": [
+            "4"
+        ]
+    },
+    {
+        "question": "What protection exists against discrimination?",
+        "expected_labels": [
+            "19"
+        ]
+    },
+    {
+        "question": "When did the Act come into force?",
+        "expected_labels": [
+            "1"
+        ]
+    },
+    {
+        "question": "What limits can be placed on rights and freedoms?",
+        "expected_labels": [
+            "5"
+        ]
+    },
+    {
+        "question": "If a law has two possible interpretations, which should be preferred under the Bill of Rights?",
+        "expected_labels": [
+            "6"
+        ]
+    },
+    {
+        "question": "What should the Attorney-General do if a proposed bill appears inconsistent with the Bill of Rights?",
+        "expected_labels": [
+            "7"
+        ]
+    },
+    {
+        "question": "What protection does the Act provide for the right to life?",
+        "expected_labels": [
+            "8"
+        ]
+    },
+    {
+        "question": "Does the Act protect people from torture or cruel treatment?",
+        "expected_labels": [
+            "9"
+        ]
+    },
+    {
+        "question": "Can a person be subjected to medical or scientific experimentation without consent?",
+        "expected_labels": [
+            "10"
+        ]
+    },
+    {
+        "question": "Can people refuse medical treatment?",
+        "expected_labels": [
+            "11"
+        ]
+    },
+    {
+        "question": "What electoral rights do New Zealand citizens have?",
+        "expected_labels": [
+            "12"
+        ]
+    },
+    {
+        "question": "Does the Act protect freedom of thought, conscience, and religion?",
+        "expected_labels": [
+            "13"
+        ]
+    },
+    {
+        "question": "What does the Act say about freedom of expression?",
+        "expected_labels": [
+            "14"
+        ]
+    },
+    {
+        "question": "Can people manifest their religion or beliefs?",
+        "expected_labels": [
+            "15"
+        ]
+    },
+    {
+        "question": "Is peaceful assembly protected?",
+        "expected_labels": [
+            "16"
+        ]
+    },
+    {
+        "question": "What protection exists for freedom of association?",
+        "expected_labels": [
+            "17"
+        ]
+    },
+    {
+        "question": "What rights does the Act provide concerning movement into and out of New Zealand?",
+        "expected_labels": [
+            "18"
+        ]
+    },
+    {
+        "question": "What rights do people have to enjoy their culture and use their language as members of minority communities?",
+        "expected_labels": [
+            "20"
+        ]
+    },
+    {
+        "question": "What protection exists against unreasonable searches and seizures?",
+        "expected_labels": [
+            "21"
+        ]
+    },
+    {
+        "question": "What protection does the Act provide against arbitrary arrest or detention?",
+        "expected_labels": [
+            "22"
+        ]
+    },
+    {
+        "question": "What rights must be respected when a person is arrested or detained?",
+        "expected_labels": [
+            "23"
+        ]
+    },
+    {
+        "question": "What rights does a person charged with an offence have?",
+        "expected_labels": [
+            "24"
+        ]
+    },
+    {
+        "question": "What are the minimum standards of criminal procedure?",
+        "expected_labels": [
+            "25"
+        ]
+    }
+]
