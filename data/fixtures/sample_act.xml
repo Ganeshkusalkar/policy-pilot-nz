@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<act
+    work_id="sample_act_1990_001"
+    title="Sample Public Act 1990"
+    source_url="https://example.govt.nz/sample-act">
+
+    <part number="1" title="Preliminary">
+
+        <section number="1" heading="Purpose">
+            The purpose of this Act is to provide a clear framework
+            for the administration of public services.
+        </section>
+
+        <section number="2" heading="Application">
+            This Act applies to public organisations carrying out
+            functions under New Zealand public law.
+        </section>
+
+    </part>
+
+    <part number="2" title="General Provisions">
+
+        <section number="3" heading="Responsibilities">
+            An organisation responsible for administering this Act
+            must maintain appropriate records and procedures.
+        </section>
+
+    </part>
+
+</act> 

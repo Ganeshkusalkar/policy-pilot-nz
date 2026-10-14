@@ -1,0 +1,47 @@
+# Python virtual environments
+.P/
+.p/
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local legislation data
+data/raw/*
+!data/raw/README.md
+data/processed/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+*.secret
+secrets/
