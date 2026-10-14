@@ -1,10 +1,16 @@
-# Virtual environment
+# Python virtual environments
 .P/
 .p/
+.venv/
 venv/
 
 # Environment variables / secrets
 .env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
 
 # Python
 __pycache__/
@@ -31,6 +37,10 @@ Thumbs.db
 data/raw/*
 !data/raw/README.md
 data/processed/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
 
 # Secrets
 *.secret
