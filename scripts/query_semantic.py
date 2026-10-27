@@ -1,12 +1,20 @@
 
 import json
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from app.retrieval.semantic import SemanticIndex
 
 
-DATA_PATH = Path(
-    "data/processed/new-zealand-bill-of-rights-act-1990.jsonl"
+DATA_PATH = (
+    ROOT
+    / "data"
+    / "processed"
+    / "new-zealand-bill-of-rights-act-1990.jsonl"
 )
 
 

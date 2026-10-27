@@ -16,6 +16,15 @@ class Settings:
     gemini_api_key: str = os.getenv("GEMINI_API_KEY", "")
     gemini_model: str = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
+    allowed_origins: list[str] = [
+        origin.strip()
+        for origin in os.getenv(
+            "ALLOWED_ORIGINS",
+            "http://localhost:5173,http://127.0.0.1:5173,https://policy-pilot-nz.vercel.app",
+        ).split(",")
+        if origin.strip()
+    ]
+
 
 settings = Settings()
 

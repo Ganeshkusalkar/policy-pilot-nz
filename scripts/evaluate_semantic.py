@@ -1,15 +1,22 @@
 
 import json
+import sys
 import time
 from pathlib import Path
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from app.retrieval.semantic import SemanticIndex
 
-
-DATA_PATH = Path(
-    "data/processed/new-zealand-bill-of-rights-act-1990.jsonl"
+DATA_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "new-zealand-bill-of-rights-act-1990.jsonl"
 )
-QUESTIONS_PATH = Path("data/evaluation/retrieval_questions.json")
+QUESTIONS_PATH = PROJECT_ROOT / "data" / "evaluation" / "retrieval_questions.json"
 TOP_K = 3
 
 

@@ -1,12 +1,14 @@
 
 import json
+import sys
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from app.ingestion.chunker import make_chunks
 from app.ingestion.xml_parser import parse_legislation
-
-
-ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "data" / "raw"
 OUTPUT_DIR = ROOT / "data" / "processed"
 

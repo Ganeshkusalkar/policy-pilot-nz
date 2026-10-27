@@ -1,0 +1,893 @@
+[
+  {
+    "id": "TC-LEG-01",
+    "category": "Direct statutory",
+    "question": "What are my rights if I am arrested in New Zealand?",
+    "expected_sections": [
+      "23"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "18",
+      "23",
+      "22",
+      "1",
+      "20"
+    ],
+    "citation_labels": [
+      "23",
+      "22"
+    ],
+    "citations": [
+      {
+        "section": "23",
+        "heading": "Rights of persons arrested or detained",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225525/"
+      },
+      {
+        "section": "22",
+        "heading": "Liberty of the person",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225524/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, your rights regarding arrest and detention are as follows:\n\n* **Freedom from arbitrary arrest:** You have the right not to be arbitrarily arrested or detained (Section 22).\n* **Reasons for arrest:** You must be informed of the reason for your arrest or detention at the time it occurs (Section 23(1)(a)).\n* **Right to a lawyer:** You have the right to consult and instruct a lawyer without delay, and you must be informed of this right (Section 23(1)(b)).\n* **Challenge lawfulness:** You have the right to have the validity of your arrest or detention determined without delay by way of habeas corpus, and to be released if the arrest or detention is unlawful (Section 23(1)(c)).\n* **Prompt charge or release:** If arrested for an offence, you have the right to be charged promptly or released (Section 23(2)).\n* **Court appearance:** If you are arrested for an offence and are not released, you must be brought before a court or competent tribunal as soon as possible (Section 23(3)).\n* **Right to remain silent:** If arrested or detained for any offence or suspected offence, you have the right to refrain from making any statement and to be informed of that right (Section 23(4)).\n* **Humane treatment:** Anyone deprived of their liberty must be treated with humanity and with respect for the inherent dignity of the person (Section 23(5)).",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-02",
+    "category": "Direct statutory",
+    "question": "Can I consult a lawyer after being arrested?",
+    "expected_sections": [
+      "23"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "23",
+      "22",
+      "5",
+      "6",
+      "24"
+    ],
+    "citation_labels": [
+      "23",
+      "24"
+    ],
+    "citations": [
+      {
+        "section": "23",
+        "heading": "Rights of persons arrested or detained",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225525/"
+      },
+      {
+        "section": "24",
+        "heading": "Rights of persons charged",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225526/"
+      }
+    ],
+    "answer": "Yes, according to the supplied evidence, everyone who is arrested or detained has the right to consult and instruct a lawyer without delay and to be informed of that right (section 23). Additionally, everyone who is charged with an offence has the right to consult and instruct a lawyer (section 24).",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-03",
+    "category": "Direct statutory",
+    "question": "Which provision protects freedom of expression?",
+    "expected_sections": [
+      "14"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "14",
+      "4",
+      "29",
+      "27",
+      "7"
+    ],
+    "citation_labels": [
+      "14"
+    ],
+    "citations": [
+      {
+        "section": "14",
+        "heading": "Freedom of expression",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225513/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, freedom of expression is protected under Section 14, which states that everyone has the right to freedom of expression, including the freedom to seek, receive, and impart information and opinions of any kind in any form.\n\n*Disclaimer: This is legal information, not legal advice.*",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-04",
+    "category": "Direct statutory",
+    "question": "What does the Act say about unreasonable search or seizure?",
+    "expected_sections": [
+      "21"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "21",
+      "1",
+      "19",
+      "26",
+      "7A"
+    ],
+    "citation_labels": [
+      "21"
+    ],
+    "citations": [
+      {
+        "section": "21",
+        "heading": "Unreasonable search and seizure",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225523/"
+      }
+    ],
+    "answer": "According to the Act, everyone has the right to be secure against unreasonable search or seizure, whether of the person, property, correspondence, or otherwise (Section 21).",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-05",
+    "category": "Direct statutory",
+    "question": "What electoral rights do New Zealand citizens have?",
+    "expected_sections": [
+      "12"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "12",
+      "18",
+      "24",
+      "1",
+      "20"
+    ],
+    "citation_labels": [
+      "12"
+    ],
+    "citations": [
+      {
+        "section": "12",
+        "heading": "Electoral rights",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225511/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, every New Zealand citizen who is 18 years of age or older has the following electoral rights:\n* The right to vote in genuine periodic elections of members of the House of Representatives, conducted by equal suffrage and secret ballot (Section 12(a)).\n* Qualification for membership of the House of Representatives (Section 12(b)).\n\n*(Note: This is legal information, not legal advice.)*",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-06",
+    "category": "Multi-section",
+    "question": "How do justified limitations interact with the rights affirmed in the Act?",
+    "expected_sections": [
+      "2",
+      "5"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "5",
+      "2",
+      "19",
+      "1",
+      "26"
+    ],
+    "citation_labels": [
+      "5",
+      "2"
+    ],
+    "citations": [
+      {
+        "section": "5",
+        "heading": "Justified limitations",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225501/"
+      },
+      {
+        "section": "2",
+        "heading": "Rights affirmed",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM224798/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, the rights and freedoms affirmed in the Act may be subject only to reasonable limits prescribed by law that can be demonstrably justified in a free and democratic society, and this is subject to section 4 (section 5).",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-07",
+    "category": "Multi-section",
+    "question": "What protections exist for persons detained or charged with an offence?",
+    "expected_sections": [
+      "23",
+      "24",
+      "22"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "23",
+      "24",
+      "22",
+      "26",
+      "25"
+    ],
+    "citation_labels": [
+      "23",
+      "24",
+      "22"
+    ],
+    "citations": [
+      {
+        "section": "23",
+        "heading": "Rights of persons arrested or detained",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225525/"
+      },
+      {
+        "section": "24",
+        "heading": "Rights of persons charged",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225526/"
+      },
+      {
+        "section": "22",
+        "heading": "Liberty of the person",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225524/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, the following protections exist for persons detained or charged with an offence:\n\n* **Liberty of the person:** Everyone has the right not to be arbitrarily arrested or detained (Section 22).\n* **Rights of persons arrested or detained:** \n  * Must be informed of the reason for arrest or detention at the time it occurs (Section 23(1)(a)).\n  * Have the right to consult and instruct a lawyer without delay and to be informed of that right (Section 23(1)(b)).\n  * Have the right to have the validity of the arrest or detention determined without delay by way of habeas corpus and to be released if it is unlawful (Section 23(1)(c)).\n  * Arrested persons have the right to be charged promptly or released (Section 23(2)).\n  * Persons arrested for an offence who are not released must be brought as soon as possible before a court or competent tribunal (Section 23(3)).\n  * Anyone arrested or detained for an offence or suspected offence has the right to refrain from making any statement and to be informed of that right (Section 23(4)).\n  * Everyone deprived of liberty must be treated with humanity and with respect for the inherent dignity of the person (Section 23(5)).\n* **Rights of persons charged:** \n  * Must be informed promptly and in detail of the nature and cause of the charge (Section 24(a)).\n  * Shall be released on reasonable terms and conditions unless there is just cause for continued detention (Section 24(b)).\n  * Have the right to consult and instruct a lawyer (Section 24(c)).\n  * Have the right to adequate time and facilities to prepare a defence (Section 24(d)).\n  * Have the right to trial by jury when the penalty is or includes imprisonment for 2 years or more, except for military law offences tried before a military tribunal (Section 24(e)).\n  * Have the right to receive legal assistance without cost if the interests of justice so require and the person lacks sufficient means (Section 24(f)).\n  * Have the right to the free assistance of an interpreter if they cannot understand or speak the language used in court (Section 24(g)).\n* **Minimum standards of criminal procedure:** Everyone charged with an offence has minimum rights including a fair and public hearing by an independent and impartial court, being tried without undue delay, the presumption of innocence, the right not to be compelled to be a witness or confess guilt, the right to be present and present a defence, the right to examine prosecution witnesses and obtain defense witnesses under the same conditions, the benefit of a lesser penalty if varied between commission and sentencing, the right to appeal to a higher court, and the right for a child to be dealt with in a manner taking account of their age (Section 25).\n* **Retroactive penalties and double jeopardy:** No one is liable for conviction for an act/omission that was not an offence under New Zealand law at the time, and no one finally acquitted, convicted, or pardoned can be tried or punished for it again (Section 26).",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-08",
+    "category": "Multi-section",
+    "question": "What duties does the Attorney-General have regarding bills that appear inconsistent with rights?",
+    "expected_sections": [
+      "7",
+      "7A"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "7",
+      "7A",
+      "3",
+      "24",
+      "4"
+    ],
+    "citation_labels": [
+      "7"
+    ],
+    "citations": [
+      {
+        "section": "7",
+        "heading": "Attorney-General to report to Parliament where Bill appears to be inconsistent with Bill of Rights",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225503/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, the Attorney-General has the following duty regarding bills that appear inconsistent with rights:\n\n* When any bill is introduced into the House of Representatives, the Attorney-General must bring to the attention of the House any provision in the bill that appears to be inconsistent with any of the rights and freedoms contained in the Bill of Rights (Section 7). This must be done:\n  - On the introduction of the bill, in the case of a Government Bill; or\n  - As soon as practicable after the introduction of the bill, in any other case.",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-09",
+    "category": "Synonyms",
+    "question": "Can parliament strike down or invalidate other legislation that conflicts with rights?",
+    "expected_sections": [
+      "4"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "4",
+      "7",
+      "6",
+      "7B",
+      "7A"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": false,
+    "status": "FAIL"
+  },
+  {
+    "id": "TC-LEG-10",
+    "category": "Synonyms",
+    "question": "Are people protected from physical abuse, torture, or bodily harm in custody?",
+    "expected_sections": [
+      "23",
+      "9"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "9",
+      "27"
+    ],
+    "citation_labels": [
+      "9"
+    ],
+    "citations": [
+      {
+        "section": "9",
+        "heading": "Right not to be subjected to torture or cruel treatment",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225507/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, everyone has the right not to be subjected to torture or to cruel, degrading, or disproportionately severe treatment or punishment (section 9). \n\n*This is legal information, not legal advice.*",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-11",
+    "category": "Synonyms",
+    "question": "Does the law allow citizens to demonstrate, protest, or march peacefully?",
+    "expected_sections": [
+      "16"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "18",
+      "12",
+      "27",
+      "8",
+      "5"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": false,
+    "accuracy_pass": false,
+    "status": "FAIL"
+  },
+  {
+    "id": "TC-LEG-12",
+    "category": "Māori macrons",
+    "question": "How does the Act protect the rights of Māori language speakers?",
+    "expected_sections": [
+      "20"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "1",
+      "27",
+      "20",
+      "19",
+      "26"
+    ],
+    "citation_labels": [
+      "20"
+    ],
+    "citations": [
+      {
+        "section": "20",
+        "heading": "Rights of minorities",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225521/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, the Act protects the rights of linguistic minorities (which includes Māori language speakers) by stating that a person belonging to a linguistic minority shall not be denied the right, in community with other members of that minority, to use their language (Section 20).",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-13",
+    "category": "Māori macrons",
+    "question": "Does the Act protect the right of whānau to practice their religion and culture?",
+    "expected_sections": [
+      "20",
+      "15"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "15",
+      "20",
+      "13",
+      "1",
+      "27"
+    ],
+    "citation_labels": [
+      "15",
+      "20",
+      "13"
+    ],
+    "citations": [
+      {
+        "section": "15",
+        "heading": "Manifestation of religion and belief",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225514/"
+      },
+      {
+        "section": "20",
+        "heading": "Rights of minorities",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225521/"
+      },
+      {
+        "section": "13",
+        "heading": "Freedom of thought, conscience, and religion",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225512/"
+      }
+    ],
+    "answer": "Based on the supplied evidence, the Act does not specifically mention or protect the right of \"whānau\" to practice their religion and culture. \n\nHowever, the Act does contain provisions regarding religion and culture more broadly:\n* Section 13 provides that everyone has the right to freedom of thought, conscience, religion, and belief.\n* Section 15 states that every person has the right to manifest their religion or belief in worship, observance, practice, or teaching, individually or in community with others, in public or in private.\n* Section 20 protects persons belonging to an ethnic, religious, or linguistic minority from being denied the right, in community with other members of that minority, to enjoy their culture, profess and practise their religion, or use their language.",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-14",
+    "category": "Māori macrons",
+    "question": "What does the Act say about te Tiriti o Waitangi or Māori rangatiratanga?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "1",
+      "19",
+      "26",
+      "7A"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-15",
+    "category": "Ambiguous",
+    "question": "What are my legal rights in New Zealand?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "18",
+      "29",
+      "1",
+      "20",
+      "12"
+    ],
+    "citation_labels": [
+      "18",
+      "29",
+      "20"
+    ],
+    "citations": [
+      {
+        "section": "18",
+        "heading": "Freedom of movement",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225517/"
+      },
+      {
+        "section": "29",
+        "heading": "Application to legal persons",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225532/"
+      },
+      {
+        "section": "20",
+        "heading": "Rights of minorities",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225521/"
+      }
+    ],
+    "answer": "Based on the supplied legislation (the New Zealand Bill of Rights Act 1990), your specific legal rights depend on your circumstances:\n\n* **Freedom of movement and residence:** If you are lawfully in New Zealand, you have the right to freedom of movement and residence. If you are a New Zealand citizen, you have the right to enter and leave New Zealand. If you are not a citizen but are lawfully in New Zealand, you cannot be required to leave except under a decision taken on grounds prescribed by law (Section 18).\n* **Electoral rights:** If you are a New Zealand citizen aged 18 years or older, you have the right to vote in genuine periodic elections of members of the House of Representatives by equal suffrage and secret ballot, and you are qualified for membership of the House of Representatives (Section 12).\n* **Rights of minorities:** If you belong to an ethnic, religious, or linguistic minority in New Zealand, you have the right, in community with other members of that minority, to enjoy your culture, profess and practise your religion, and use your language without being denied those rights (Section 20).\n* **Application to legal persons:** Except where the provisions provide otherwise, these rights apply so far as practicable for the benefit of all legal persons as well as natural persons (Section 29).\n\n*Disclaimer: This is legal information, not legal advice.*",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": false,
+    "status": "FAIL"
+  },
+  {
+    "id": "TC-LEG-16",
+    "category": "Ambiguous",
+    "question": "Can rights be limited?",
+    "expected_sections": [
+      "5"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "5",
+      "6",
+      "2",
+      "28",
+      "25"
+    ],
+    "citation_labels": [
+      "5",
+      "28"
+    ],
+    "citations": [
+      {
+        "section": "5",
+        "heading": "Justified limitations",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225501/"
+      },
+      {
+        "section": "28",
+        "heading": "Other rights and freedoms not affected",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225531/"
+      }
+    ],
+    "answer": "Based on the supplied legislation, rights and freedoms may be subject only to reasonable limits prescribed by law that can be demonstrably justified in a free and democratic society, subject to section 4 (Section 5). Additionally, existing rights and freedoms are not to be held abrogated or restricted solely because they are not included (or are only included in part) in the Bill of Rights (Section 28).\n\n*This is legal information, not legal advice.*",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-17",
+    "category": "Out of corpus",
+    "question": "What does the Privacy Act 2020 say about access to personal information?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "14",
+      "1",
+      "19",
+      "26",
+      "7A"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-18",
+    "category": "Out of corpus",
+    "question": "What are the rules for filing a personal grievance under the Employment Relations Act 2000?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "1",
+      "7B",
+      "26",
+      "19",
+      "4"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-19",
+    "category": "Out of corpus",
+    "question": "What does the Crimes Act 1961 define as theft?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "1",
+      "19",
+      "26",
+      "7A"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-20",
+    "category": "Out of corpus",
+    "question": "Does this Act guarantee a particular tax deduction?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "1",
+      "19",
+      "26",
+      "7A"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-21",
+    "category": "Unrelated law",
+    "question": "What are the tenant rights under the Residential Tenancies Act 1986?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "1",
+      "26",
+      "19",
+      "7A",
+      "23"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-22",
+    "category": "Unrelated law",
+    "question": "Tell me the exact section that establishes a right to copyright protection in New Zealand.",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "18",
+      "20",
+      "3",
+      "1",
+      "12"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-23",
+    "category": "False assumption",
+    "question": "Why does the Bill of Rights Act allow courts to strike down incompatible Acts of Parliament?",
+    "expected_sections": [
+      "4"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "1",
+      "7A",
+      "3",
+      "7",
+      "4"
+    ],
+    "citation_labels": [
+      "4"
+    ],
+    "citations": [
+      {
+        "section": "4",
+        "heading": "Other enactments not affected",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225500/"
+      }
+    ],
+    "answer": "Based on the supplied evidence, the Bill of Rights Act does not allow courts to strike down incompatible Acts of Parliament. In fact, section 4 explicitly states that no court shall hold any provision of an enactment to be impliedly repealed, revoked, invalid, ineffective, or decline to apply it solely because it is inconsistent with the Bill of Rights.",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-24",
+    "category": "False assumption",
+    "question": "Under which section does the Bill of Rights Act establish a right to bear arms in New Zealand?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "1",
+      "18",
+      "26",
+      "7A",
+      "3"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-25",
+    "category": "False assumption",
+    "question": "Can the police search my home without a warrant because the Bill of Rights Act abolishes privacy rights?",
+    "expected_sections": [
+      "21"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "21",
+      "19",
+      "6",
+      "1",
+      "5"
+    ],
+    "citation_labels": [
+      "21"
+    ],
+    "citations": [
+      {
+        "section": "21",
+        "heading": "Unreasonable search and seizure",
+        "source_url": "https://www.legislation.govt.nz/act/public/1990/109/en/2022-08-30/sections/DLM225523/"
+      }
+    ],
+    "answer": "Based on the supplied evidence, the New Zealand Bill of Rights Act does not abolish privacy rights or state that police can search your home without a warrant. Instead, section 21 establishes that everyone has the right to be secure against unreasonable search or seizure of their person, property, correspondence, or otherwise. \n\n*Note: This is legal information, not legal advice.*",
+    "abstained": false,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-26",
+    "category": "Missing info",
+    "question": "What is the penalty in years of imprisonment for breaching Section 21?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "24",
+      "21",
+      "12",
+      "5",
+      "7A"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-27",
+    "category": "Missing info",
+    "question": "Who was the Minister of Justice who introduced the Bill of Rights Act in 1989?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "7",
+      "1",
+      "7B",
+      "8",
+      "19"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-28",
+    "category": "Hallucination trap",
+    "question": "Tell me the exact section that establishes a constitutional right to clean water and a healthy environment.",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "7A",
+      "5",
+      "7B",
+      "6",
+      "20"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-29",
+    "category": "Hallucination trap",
+    "question": "Which section in this Act guarantees paid annual parental leave?",
+    "expected_sections": [],
+    "expect_abstain": true,
+    "retrieved_labels": [
+      "7A",
+      "1",
+      "18",
+      "19",
+      "5"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "I couldn't find enough supporting information in the retrieved legislation to answer that question confidently. Please consult the official legislation or a qualified legal professional.",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": true,
+    "status": "PASS"
+  },
+  {
+    "id": "TC-LEG-30",
+    "category": "Qualifications",
+    "question": "Under what specific test can rights and freedoms be subjected to reasonable limits?",
+    "expected_sections": [
+      "5"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "5",
+      "6",
+      "9",
+      "10",
+      "18"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 31.045534878s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.5-flash-lite', 'location': 'global'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": false,
+    "status": "FAIL"
+  },
+  {
+    "id": "TC-LEG-31",
+    "category": "Qualifications",
+    "question": "Can a person's freedom of movement out of New Zealand be restricted?",
+    "expected_sections": [
+      "18"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "18",
+      "28",
+      "3",
+      "20",
+      "5"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 29.155338522s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": false,
+    "status": "FAIL"
+  },
+  {
+    "id": "TC-LEG-32",
+    "category": "Statutory interaction",
+    "question": "Does Section 4 prevail over Section 6 when an enactment is inconsistent with the Bill of Rights?",
+    "expected_sections": [
+      "4",
+      "6"
+    ],
+    "expect_abstain": false,
+    "retrieved_labels": [
+      "4",
+      "7B",
+      "5",
+      "7A",
+      "6"
+    ],
+    "citation_labels": [],
+    "citations": [],
+    "answer": "ERROR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\\nPlease retry in 27.266359579s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per minute limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27s'}]}}",
+    "abstained": true,
+    "retrieval_pass": true,
+    "accuracy_pass": false,
+    "status": "FAIL"
+  }
+]

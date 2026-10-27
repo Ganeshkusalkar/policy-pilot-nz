@@ -304,6 +304,29 @@ data/           Local source and processed corpus files
 
 Potential improvements include broader legislation coverage, stronger citation-entailment evaluation, version-aware corpus management, more adversarial tests, a configurable retrieval strategy for the API, and evaluation against a larger set of questions.
 
+## Deployment (Render & Vercel)
+
+### Backend Deployment (Render)
+1. Create a new **Web Service** on Render connected to this repository.
+2. Configure settings:
+   - **Environment**: Python
+   - **Build Command**: `pip install -r requirements.txt && python scripts/process_legislation.py` *(ensures corpus is generated)*
+   - **Start Command**: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+3. Configure Environment Variables:
+   - `GEMINI_API_KEY`: Your Google Gemini API key.
+   - `GEMINI_MODEL`: `gemini-3.5-flash-lite` (or desired model).
+   - `ALLOWED_ORIGINS`: `https://policy-pilot-nz.vercel.app,http://localhost:5173`
+
+### Frontend Deployment (Vercel)
+1. Import the repository on Vercel.
+2. Configure project settings:
+   - **Framework Preset**: Vite
+   - **Root Directory**: `frontend`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+3. Configure Environment Variables:
+   - `VITE_API_BASE_URL`: `https://policy-pilot-nz.onrender.com`
+
 ## License
 
 No project license has been added yet. Before redistributing this repository, choose and add an appropriate license. Check the applicable terms for the source legislation and third-party dependencies separately.

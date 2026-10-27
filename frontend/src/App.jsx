@@ -61,7 +61,13 @@ function getCitationLabel(citation, index) {
 
 function getCitationUrl(citation) {
   if (typeof citation === 'string') return ''
-  return citation?.section_url || citation?.url || citation?.source_url || ''
+  const url = citation?.section_url || citation?.url || citation?.source_url || ''
+  if (typeof url !== 'string') return ''
+  const trimmed = url.trim()
+  if (/^https?:\/\//i.test(trimmed)) {
+    return trimmed
+  }
+  return ''
 }
 
 function getCitationDescription(citation) {
@@ -509,7 +515,7 @@ function App() {
                               className="citation-link"
                               href={url}
                               target="_blank"
-                              rel="noreferrer"
+                              rel="noopener noreferrer"
                             >
                               Read official legislation
                               <ExternalLink size={14} />
@@ -521,7 +527,7 @@ function App() {
                             className="citation-open"
                             href={url}
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             aria-label={`Open ${label}`}
                           >
                             <ArrowUpRight size={18} />

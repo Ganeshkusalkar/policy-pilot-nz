@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.config import settings
 from app.api.health import router as health_router
 from app.api.ask import router as ask_router
 
@@ -9,14 +10,10 @@ app = FastAPI(
     version="0.1.0",
 )
 
-# Allow the local React frontend to call the API during development.
+# Allow the frontend to call the API during development and production.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "https://policy-pilot-nz.vercel.app"
-    ],
+    allow_origins=settings.allowed_origins,
     allow_credentials=False,
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization"],

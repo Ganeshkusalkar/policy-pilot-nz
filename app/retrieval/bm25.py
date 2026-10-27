@@ -1,6 +1,7 @@
 
 import math
 import re
+import unicodedata
 from collections import Counter
 
 
@@ -8,7 +9,7 @@ from collections import Counter
 STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by",
     "does", "for", "from", "how", "in", "is", "it",
-    "of", "on", "or", "the", "this", "to", "was",
+    "of", "on", "or", "s", "the", "this", "to", "was",
     "what", "which", "who", "with",
 }
 
@@ -23,6 +24,16 @@ LEGAL_SYNONYMS = {
     "inconsistency": ["inconsistent"],
     "enactment": ["provision", "legislation"],
     "enactments": ["provisions", "legislation"],
+    "protest": ["assembly", "peaceful"],
+    "protests": ["assembly", "peaceful"],
+    "protesting": ["assembly", "peaceful"],
+    "demonstrate": ["assembly", "peaceful"],
+    "demonstrating": ["assembly", "peaceful"],
+    "demonstration": ["assembly", "peaceful"],
+    "demonstrations": ["assembly", "peaceful"],
+    "march": ["assembly", "peaceful"],
+    "lawyer": ["counsel"],
+    "solicitor": ["counsel"],
 }
 
 
@@ -44,6 +55,10 @@ def normalize_token(token: str) -> str:
         "arresting": "arrest",
         "enactments": "enactment",
         "provisions": "provision",
+        "demonstrations": "assembly",
+        "demonstration": "assembly",
+        "protests": "assembly",
+        "protest": "assembly",
     }
 
     if token in special_forms:
@@ -69,8 +84,13 @@ def normalize_token(token: str) -> str:
 
 
 def tokenize(text: str) -> list[str]:
-    """Normalize words and remove common words that add little relevance."""
-    raw_tokens = re.findall(r"[a-z0-9]+", text.lower())
+    """Normalize words, strip diacritics, and remove common words that add little relevance."""
+    normalized_text = "".join(
+        c
+        for c in unicodedata.normalize("NFKD", text)
+        if not unicodedata.combining(c)
+    )
+    raw_tokens = re.findall(r"[a-z0-9]+", normalized_text.lower())
 
     return [
         normalized
