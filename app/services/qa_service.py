@@ -150,7 +150,10 @@ def filter_citations_by_answer(
 
 def answer_question(question: str) -> dict[str, Any]:
     if not settings.gemini_api_key:
-        raise RuntimeError("GEMINI_API_KEY is not configured.")
+      print("DIAGNOSTIC: GEMINI_API_KEY is missing or empty.")
+      raise RuntimeError("GEMINI_API_KEY is not configured.")
+
+      print("DIAGNOSTIC: GEMINI_API_KEY is configured.")
 
     retriever = get_retriever()
     retrieved = retriever.search(question, top_k=5)
